@@ -16,7 +16,7 @@ export default function Home() {
         >
           <div className="card" >
             <img
-              src="Product1.jpg"
+              src="product1.jpg"
               className="card-img-top"
               alt="ProductImage"
             />
