@@ -58,23 +58,23 @@ export default function Footer() {
                       }}
                     />
                     <p>
-                      <a href="#!" className="text-white">
-                        Product1
+                      <a href="/Product" className="text-white">
+                      JFD-w6
                       </a>
                     </p>
                     <p>
-                      <a href="#!" className="text-white">
-                        Product2
+                      <a href="/Product" className="text-white">
+                        JFD-w10
                       </a>
                     </p>
                     <p>
-                      <a href="#!" className="text-white">
-                        Product3
+                      <a href="/Product" className="text-white">
+                        JFD-w10GPS
                       </a>
                     </p>
                     <p>
-                      <a href="#!" className="text-white">
-                        Product4
+                      <a href="/Product" className="text-white">
+                        JPC-A18 WIFI
                       </a>
                     </p>
                   </div>
@@ -108,7 +108,7 @@ export default function Footer() {
                       </a>
                     </p>
                     <p>
-                      <a href="/ContactForm" className="text-white">
+                      <a href="/Contact" className="text-white">
                         Contact us
                       </a>
                     </p>

@@ -1,16 +1,24 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar2 = () => {
   return (
     <>
-      <nav 
-         className="navbar fixed-top navbar-expand-lg navbar-light  "
-         style={{ backgroundColor: "#666564" }}
-       >
+      <nav
+        className="navbar fixed-top navbar-expand-lg navbar-light  "
+        style={{ backgroundColor: "#666564" }}
+      >
         <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          <img src="/ME_Logo.png"  className="img-fluid" alt="..." width="150" height="60" style={{marginLeft:"20px"}}/>
-        </a>
+          <a className="navbar-brand" href="#">
+            <img
+              src="/ME_Logo.png"
+              className="img-fluid"
+              alt="..."
+              width="150"
+              height="60"
+              style={{ marginLeft: "20px" }}
+            />
+          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -23,28 +31,28 @@ const Navbar2 = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            
-            
-            
             <div className="navbar-nav">
-              <a className=" nav-item nav-link active text-white" href="/">
+              <Link to="/" className=" nav-item nav-link active text-white">
                 Home
-              </a>
-              <a className="nav-item nav-link active text-white" href="/About">
+              </Link>
+              <Link
+                to="/About"
+                className=" nav-item nav-link active text-white"
+              >
                 About
-              </a>
-              <a
-                className="nav-item nav-link active text-white"
-                href="/Product"
+              </Link>
+              <Link
+                to="/Product"
+                className=" nav-item nav-link active text-white"
               >
                 Product
-              </a>
-              <a
-                className="nav-item nav-link active text-white"
-                href="/Contact"
+              </Link>
+              <Link
+                to="/Contact"
+                className=" nav-item nav-link active text-white"
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
         </div>
