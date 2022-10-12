@@ -44,7 +44,7 @@ const Contact = () => {
                         marginBottom: "15px",
                         margin: "auto",
                         textAlign: "centre",
-                        width: "180px",
+                        width: "200px",
                       }}
                     >
                       Registered Office :-
@@ -73,9 +73,10 @@ const Contact = () => {
                       >
                         <LocalPhoneTwoToneIcon fontSize="large" />
                       </p>
-                      <p style={{ marginTop: "5px", marginLeft: "65px" }}>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Rem, corrupti?
+                      <p style={{ marginTop: "15px", marginLeft: "10rem" }}>
+                      + 9196200
+                      98499/98288
+                       
                       </p>
                       <p
                         style={{
@@ -86,9 +87,8 @@ const Contact = () => {
                       >
                         <MarkunreadTwoToneIcon fontSize="large" />
                       </p>
-                      <p style={{ marginTop: "5px", marginLeft: "65px" }}>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Rem, corrupti?
+                      <p style={{ marginTop: "15px", marginLeft: "13rem" }}>
+                       info@mtrak.in
                       </p>
                     </div>
                   </div>

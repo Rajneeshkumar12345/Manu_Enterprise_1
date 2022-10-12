@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Navbar2 from "./components/Navbar2";
 
+
 function App() {
   return (
     <div className="App">
@@ -19,8 +20,10 @@ function App() {
           <Route exact path="/Product" element={<Product />}></Route>
           <Route exact path="/Contact" element={<Contact />}></Route>
         </Routes>
+        <Footer/>
+        
       </BrowserRouter>
-      <Footer />
+      
     </div>
   );
 }

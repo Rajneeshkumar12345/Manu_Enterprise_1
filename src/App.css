@@ -44,3 +44,13 @@
   top: 0;
 } */
 
+.Footer_Cmp{
+  text-align: justify;
+}
+
+.Product_List > ul>li{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-indent: 2px;
+  letter-spacing:2px;
+  font: oblique;
+}

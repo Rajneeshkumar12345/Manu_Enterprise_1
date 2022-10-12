@@ -5,8 +5,9 @@ const Navbar2 = () => {
   return (
     <>
       <nav
-        className="navbar fixed-top navbar-expand-lg navbar-light  "
-        style={{ backgroundColor: "#666564" }}
+      // #666564  #9798b8
+        className="navbar fixed-top navbar-expand-lg navbar-light"
+        style={{backgroundColor: "#e6e6e6"}}
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
@@ -31,25 +32,25 @@ const Navbar2 = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
-              <Link to="/" className=" nav-item nav-link active text-white">
+            <div className="navbar-nav" style={{textColor:"#222673",fontWeight:"bold"}}>
+              <Link to="/" className=" nav-item nav-link active ">
                 Home
               </Link>
               <Link
                 to="/About"
-                className=" nav-item nav-link active text-white"
+                className=" nav-item nav-link active"  
               >
                 About
               </Link>
               <Link
                 to="/Product"
-                className=" nav-item nav-link active text-white"
+                className=" nav-item nav-link active"
               >
                 Product
               </Link>
               <Link
                 to="/Contact"
-                className=" nav-item nav-link active text-white"
+                className=" nav-item nav-link active"
               >
                 Contact
               </Link>

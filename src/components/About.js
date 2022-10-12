@@ -1,6 +1,7 @@
 import React from "react";
 import ReactReadMoreReadLess from "react-read-more-read-less";
 
+
 export default function About() {
   return (
     <>
@@ -8,10 +9,10 @@ export default function About() {
     <div className="About" style={{backgroundColor: "#8e918f"}}>
      
     <div
-        className="container"
+        className=""
         style={{
           marginTop: "4.7rem",
-          
+          marginBottom:"4.5rem"
         }}
       >
         <div className="row">
@@ -19,18 +20,18 @@ export default function About() {
             <div className="card" style={{ backgroundColor: "#a4bfac" }}>
               <div className="card-body" style={{marginTop:"3rem", marginBottom:"3rem", marginLeft:"3rem"}}>
                 <div className="row ">
-                  <div className="col " >
+                  <div className="col" >
                     <h4>About me</h4>
                     <div className="card-text " style={{ textAlign:'justify'}}>
                       <ReactReadMoreReadLess
                         charLimit={600}
-                        readMoreText="Read more ▼"
-                        readLessText="Read less ▲"
+                        readMoreText={<button className="btn btn-primary"> Read more</button>}
+                        readLessText={<button className="btn btn-primary"> Read less</button>}
                       >
                         Found in year 2022, with a vision to provide the best
                         and value for money vehicle safety, Personal Security
                         and tracking solution, including Hardware, Software,
-                        Consultancy and Technical Support. Fuelled by the
+                        Consultancy and Technical Support. {<br></br>}Fuelled by the
                         passion and experience of our dedicated team, MTRAK
                         (Manu Enterprises) helps our clients solve their
                         vehicle/personal security related challenges day in and
@@ -51,7 +52,7 @@ export default function About() {
                       </ReactReadMoreReadLess>
                     </div>
                   </div>
-                  <div className="col-sm-6 text-right mt-5">
+                  <div className="col-sm-6 text-right mt-4">
                     <img
                       className="img-fluid"
                       src="ME_Logo.png"
