@@ -25,13 +25,14 @@ export default function About() {
                     <div className="card-text " style={{ textAlign:'justify'}}>
                       <ReactReadMoreReadLess
                         charLimit={600}
-                        readMoreText={<button className="btn btn-primary"> Read more</button>}
-                        readLessText={<button className="btn btn-primary"> Read less</button>}
+                        readMoreText={<button className="btn btn-primary"> Read more ▼</button>}
+                        readLessText={<button className="btn btn-primary"> Read less ▲</button>}
+                        
                       >
                         Found in year 2022, with a vision to provide the best
                         and value for money vehicle safety, Personal Security
                         and tracking solution, including Hardware, Software,
-                        Consultancy and Technical Support. {<br></br>}Fuelled by the
+                        Consultancy and Technical Support. Fuelled by the
                         passion and experience of our dedicated team, MTRAK
                         (Manu Enterprises) helps our clients solve their
                         vehicle/personal security related challenges day in and
