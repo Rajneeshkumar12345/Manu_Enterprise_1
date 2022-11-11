@@ -1,7 +1,7 @@
 import "./App.css";
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Product from "./components/Product";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
@@ -19,6 +19,7 @@ function App() {
           <Route exact path="/About" element={<About />}></Route>
           <Route exact path="/Product" element={<Product />}></Route>
           <Route exact path="/Contact" element={<Contact />}></Route>
+          <Route exact path="*" element={<Navigate to="/" />}></Route>
         </Routes>
         <Footer/>
         

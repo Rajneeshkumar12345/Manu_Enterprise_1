@@ -10,7 +10,7 @@ const Navbar2 = () => {
         style={{backgroundColor: "#e6e6e6"}}
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img
               src="/ME_Logo.png"
               className="img-fluid"
